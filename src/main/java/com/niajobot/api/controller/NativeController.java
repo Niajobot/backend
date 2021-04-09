@@ -8,6 +8,6 @@ public class NativeController {
 
     @GetMapping("/native")
     public String nativeCall() {
-        return "Native";
+        return "Native test";
     }
 }
